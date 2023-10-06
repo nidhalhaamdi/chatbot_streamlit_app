@@ -16,11 +16,11 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 # for downloading packages
-#nltk.download('popular', quiet=True)
+nltk.download('popular', quiet=True)
 
 # uncomment the following only the first time
-#nltk.download('punkt') # first-time use only
-#nltk.download('wordnet') # first-time use only
+nltk.download('punkt') # first-time use only
+nltk.download('wordnet') # first-time use only
 
 
 #Reading in the corpus
